@@ -1,0 +1,10 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Моя доска",
+  "boardWithoutFolder": "Без папки",
+  "boardNoTasks": "Задач нет",
+  "commonRetry": "Повторить",
+  "errorServer": "Ошибка сервера",
+  "errorNoConnection": "Нет соединения",
+  "errorSaveChangesFailed": "Не удалось сохранить изменения"
+}

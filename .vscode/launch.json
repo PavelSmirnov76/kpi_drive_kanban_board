@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Web (Chrome) — dev",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "deviceId": "chrome",
+      "args": [
+        "--dart-define=ENV=dev",
+        "--web-browser-flag=--disable-web-security"
+      ]
+    },
+    {
+      "name": "Web (Chrome) — profile",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "deviceId": "chrome",
+      "args": [
+        "--dart-define=ENV=prod",
+        "--web-browser-flag=--disable-web-security"
+      ]
+    },
+    {
+      "name": "Web (Chrome) — release",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "deviceId": "chrome",
+      "args": [
+        "--dart-define=ENV=prod",
+        "--web-browser-flag=--disable-web-security"
+      ]
+    }
+  ]
+}
