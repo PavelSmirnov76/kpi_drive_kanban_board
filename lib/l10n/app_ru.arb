@@ -4,6 +4,7 @@
   "boardWithoutFolder": "Без папки",
   "boardNoTasks": "Задач нет",
   "commonRetry": "Повторить",
+  "commonSomethingWentWrong": "Что-то пошло не так",
   "errorServer": "Ошибка сервера",
   "errorNoConnection": "Нет соединения",
   "errorSaveChangesFailed": "Не удалось сохранить изменения"

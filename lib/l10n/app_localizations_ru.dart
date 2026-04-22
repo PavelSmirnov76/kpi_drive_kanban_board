@@ -21,6 +21,9 @@ class AppLocalizationsRu extends AppLocalizations {
   String get commonRetry => 'Повторить';
 
   @override
+  String get commonSomethingWentWrong => 'Что-то пошло не так';
+
+  @override
   String get errorServer => 'Ошибка сервера';
 
   @override

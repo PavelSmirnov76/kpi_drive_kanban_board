@@ -31,7 +31,6 @@
       "deviceId": "chrome",
       "args": [
         "--dart-define=ENV=prod",
-        "--web-browser-flag=--disable-web-security"
       ]
     }
   ]

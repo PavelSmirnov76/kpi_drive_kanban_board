@@ -23,7 +23,7 @@ class BoardView extends StatelessWidget {
           BoardLoaded(:final folders) when folders.isEmpty =>
             const BoardEmptyView(),
           BoardLoaded() => const BoardPopulated(),
-          BoardError(:final message) => BoardFailureView(message: message),
+          BoardError() => const BoardFailureView(),
         },
       ),
     );

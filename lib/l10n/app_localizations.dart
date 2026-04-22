@@ -118,6 +118,12 @@ abstract class AppLocalizations {
   /// **'Повторить'**
   String get commonRetry;
 
+  /// No description provided for @commonSomethingWentWrong.
+  ///
+  /// In ru, this message translates to:
+  /// **'Что-то пошло не так'**
+  String get commonSomethingWentWrong;
+
   /// No description provided for @errorServer.
   ///
   /// In ru, this message translates to:
